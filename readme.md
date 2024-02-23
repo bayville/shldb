@@ -53,9 +53,9 @@
 | Fält            | Typ     | Null  | Nyckel | Default      | Extra             |
 |-----------------|---------|-------|--------|--------------|-------------------|
 | PerID           | int(11) | Nej   | PK     | NULL         |     |
-| GameID         | int(11) | Ja    | FK     | NULL         |     Från Games              |
-| PerNr           | int(11) | Ja    |        | NULL         |                Alt. Varchar   |
-| LagID           | int(11) | Ja    | FK     | NULL         |  Från Teams                 |
+| GameID         | int(11) | Ja    | FK, PK     | NULL         |     Från Games              |
+| PerNr           | int(11) | Ja    | PK       | NULL         |                Alt. Varchar   |
+| LagID           | int(11) | Ja    | FK, PK     | NULL         |  Från Teams                 |
 | Mål             | int(11) | Ja    |        | NULL         |                   |
 
 #### Frågeställning kring periodscores-tabellen:
