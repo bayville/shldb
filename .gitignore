@@ -1,4 +1,4 @@
-add_constrainst.sql
+add_constraints.sql
 create_tables.sql
 inserts.sql
 quest.sql
