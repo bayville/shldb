@@ -19,7 +19,6 @@
 | LagNamn | varchar | Ja    |        | NULL         |                   |
 
 #### Frågeställningar kring lagstabellen:
-- Hur hanterar man namnbyten, eller är det ens viktigt?
 
 ### Arenatabell (`Venues`)
 
