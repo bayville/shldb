@@ -11,7 +11,7 @@
 - Måste man ha `StartDate`/`EndDate`? För- och nackdelar?
 - Bör man ha `seasonSettings` för att räkna ut poäng till en tabell? Ex. W = 2, OTW = 2, OTL = 1
 
-### Lagstabell (`Teams`)
+### Lagtabell (`Teams`)
 
 | Fält    | Typ     | Null  | Nyckel | Default      | Extra             |
 |---------|---------|-------|--------|--------------|-------------------|
@@ -21,7 +21,7 @@
 #### Frågeställningar kring lagstabellen:
 - Hur hanterar man namnbyten, eller är det ens viktigt?
 
-### Areatabell (`Venues`)
+### Arenatabell (`Venues`)
 
 | Fält      | Typ     | Null  | Nyckel | Default      | Extra             |
 |-----------|---------|-------|--------|--------------|-------------------|
@@ -48,7 +48,7 @@
 - Bör målen ligga i den här tabellen, eller bör de räknas fram från periodscore?
 - Hur hanterar man slutspel? MatchType = RegularSeason?
 
-### Periodscores-tabell (`PeriodScores`)
+### Periodscorestabell (`PeriodScores`)
 
 | Fält            | Typ     | Null  | Nyckel | Default      | Extra             |
 |-----------------|---------|-------|--------|--------------|-------------------|
